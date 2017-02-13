@@ -1,2 +1,2 @@
-# TAMS-CS-Intro-Site
-Website for Garrett Gu & Andrew Li's programming class.
+# Garrett Gu's Personal Site
+Exactly what the title says
