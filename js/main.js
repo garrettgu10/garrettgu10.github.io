@@ -122,4 +122,8 @@ $(document).ready(function(){
   window.setInterval(function(){
     $("#particles-js").css("background", getRandomColor());
   }, 10000);
+  $(window).scroll(function(){
+    var scroll=$(window).scrollTop()/$(document).height();
+    $(".particles-container").css("margin-top", -scroll*20 + "%");
+  })
 })
