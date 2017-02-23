@@ -33,6 +33,39 @@ h1{
 
 .main-title{
   margin-top: 200px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    transform: scale(0);
+  }
+
+  75% {
+	transform: scale(1.25);
+  }
+  
+  100%{
+    transform: scale(1);
+  }
+}
+
+.secondary-title {
+	animation-duration: 3s;
+	animation-name: fadein;
+}
+
+@keyframes fadein {
+	0%{
+		opacity:0;
+	}
+	50%{
+		opacity:0;
+	}
+	75%{
+		opacity:1;
+	}
 }
 
 h2, .title{
