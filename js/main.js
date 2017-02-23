@@ -81,11 +81,11 @@ $(document).ready(function(){
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "grab"
+          "enable": true,
+          "mode": "bubble"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
@@ -99,7 +99,7 @@ $(document).ready(function(){
         },
         "bubble": {
           "distance": 400,
-          "size": 4,
+          "size": 2,
           "duration": 0.3,
           "opacity": 0.6,
           "speed": 2
