@@ -99,7 +99,7 @@ $(document).ready(function(){
         },
         "bubble": {
           "distance": 400,
-          "size": 2,
+          "size": 4,
           "duration": 0.3,
           "opacity": 0.6,
           "speed": 2
